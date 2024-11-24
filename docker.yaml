@@ -1,0 +1,9 @@
+youtube-dl:
+  image: marquisexb13/ytdlp-frontend
+  container_name: ytdlp-frontend
+#  environment:
+#    - DOWNLOAD_RATE=500K
+#    - APPRISE_SERVICE=discord://webhook_id/webhook_token
+  volumes:
+    - /volume1/docker/ytdlp-frontend/downloads:/downloads
+  restart: unless-stopped
