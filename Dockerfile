@@ -9,8 +9,6 @@ RUN apt-get -y update && \
 
 RUN mkdir /downloads
 
-WORKDIR /downloads
-
 # Copy html
 ADD static/ /static
 WORKDIR /static
