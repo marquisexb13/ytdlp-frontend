@@ -1,6 +1,6 @@
 version: "3"
 services:
-    youtube-dl:
+    ytdlp-frontend:
       image: marquisexb13/ytdlp-frontend
       container_name: ytdlp-frontend
     #  environment:
